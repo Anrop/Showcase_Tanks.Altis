@@ -51,8 +51,8 @@ sleep 0.5;
 titleCut ["", "BLACK IN", 2];
 sleep 6;
 
-BIS_arty addMagazine "12Rnd_230mm_rockets";
-BIS_arty commandArtilleryFire [markerPos "BIS_artyTarget", "12Rnd_230mm_rockets", 12];
+BIS_arty addMagazine "8Rnd_82mm_Mo_shells";
+BIS_arty commandArtilleryFire [markerPos "BIS_artyTarget", "8Rnd_82mm_Mo_shells", 12];
 
 waitUntil {scriptDone _flight};
 
